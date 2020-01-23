@@ -1,12 +1,17 @@
 {
 "maintenance" : false,
 "isUpdate" : true,
+"logo" : "https://github.com/lionx123/unyu/raw/master/logobanner.png",
 
-"urlPromote" : "https://play.google.com/store/apps/details?id=com.dutafilm.indoxxihd.filmlayarkaca21",
-"titlePromote" : "HD XXI Movies",
+"urlPromote" : "https://play.google.com/store/apps/details?id=com.tencent.ig",
+"titlePromote" : "HD Movies",
 "descPromote" : "Please update new app, this old app will not support soon. Watch High Quality HD Movies",
-"thumbPromote" : "https://lh3.googleusercontent.com/YNvnfjtsDlwp6zE2TklYItijbX2ymeqRJm04FkZxUT0GZOAhA4yFxAen7bl5hKkqwYg=s180-rw",
+"thumbPromote" : "https://4.bp.blogspot.com/-SNkm8EDw0yM/WVfYk291GOI/AAAAAAAAHXQ/bE-FTh_bafYDgyfWM2YHEHy70E8e1GCGwCLcBGAs/s150/Triangle.png",
 
 "adsInterval" : 5,
-"useFAN" : true
+"useFAN" : true,
+
+"country" : "Japan, Thailand, Vietnames, Turki",
+"dbVersion" : 1,
+"useVPN" : true
 }
