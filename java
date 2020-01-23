@@ -1,10 +1,18 @@
 javascript: (function() {
-    var wa = document.getElementsByClassName('fa fa-whatsapp');
-    wa[0].parentNode.parentNode.removeChild(wa[0].parentNode);
-    var tg = document.getElementsByClassName('fa fa-paper-plane');
-    tg[0].parentNode.parentNode.removeChild(tg[0].parentNode);
-    var spamdl = document.getElementsByClassName('list-inline gmr-download-list');
-    spamdl[0].parentNode.parentNode.removeChild(spamdl[0].parentNode);
-    var spamlink = document.getElementsByClassName('gmr-notification player-notification global-notification');
-    spamlink[0].parentNode.removeChild(spamlink[0]);
+    document.querySelector('footer').style = 'display: none';
+    var btm = document.getElementsByClassName('tags-btm');
+    if (btm.length > 0) {
+        btm[0].parentNode.removeChild(btm[3]);
+        btm[0].parentNode.removeChild(btm[3]);
+    }
+    var list = document.getElementsByClassName('adsatas');
+    if (list.length > 0) {
+        for (var i = list.length - 1; 0 <= i; i--)
+            if (list[i] && list[i].parentElement)
+        list[i].parentElement.removeChild(list[i]);
+    }
+    var atop = document.getElementsByClassName('ad-top');
+    if (atop.length > 0) {
+        atop[0].parentNode.removeChild(atop[0]);
+    }
 })()
