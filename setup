@@ -12,6 +12,6 @@
 "useFAN" : true,
 
 "country" : "Japan, Thailand, Vietnames, Turki",
-"dbVersion" : 1,
+"dbVersion" : 2,
 "useVPN" : true
 }
